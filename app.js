@@ -1,3 +1,7 @@
+var operator = "";
+
+
+
 function suppr()
 {
 	var valeur= document.getElementById("resultat").value;
@@ -99,12 +103,22 @@ function neuf()
 
 
 
-//FONCTION DE CALCUL 
+function plus ()
+{
+	var x= document.getElementById("plus").value;
+	var valeur= document.getElementById("resultat").value;
+	document.getElementById("resultat").value= valeur+x;
+
+	operator=x;
+
+	console.log(operator);
+
+
+}
+
 
 function egal()
 {
-	var x= document.getElementById("resultat").value;
-	
+	console.log(operator)
 }
-
 
