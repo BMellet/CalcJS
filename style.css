@@ -1,5 +1,17 @@
 .operator{
-	width: 100px;
+	width: 50px;
 	height: auto;
-	font-size: large;
+	text-align: center;
+}
+
+.number{
+	width: 50px;
+	height: auto;
+	text-align: center;
+}
+
+.egal{
+	width: 110px;
+	height: auto;
+	text-align: center;
 }
