@@ -9,6 +9,8 @@ var total= 0;
 
 
 
+
+
 function suppr()
 {
 	var valeur= document.getElementById("resultat").value;
@@ -219,6 +221,10 @@ function egal()
 			break;
 
 		}
+
+		
+
+
 
 		
 
