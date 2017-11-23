@@ -2,7 +2,7 @@ var operator = "";
 var total= 0;
 
 
-//reset de var
+//res
 
 
 
@@ -222,7 +222,7 @@ function egal()
 
 		}
 
-		
+
 
 
 
