@@ -172,48 +172,48 @@ function division ()
 function egal()
 {
 
-	var x = document.getElementById("resultat").value
+	var x = document.getElementById("resultat").value;
 
 	switch(operator){
 		case "+":
-		document.getElementById("resultat").value = parseInt(total)+ parseInt(x)
+		document.getElementById("resultat").value = parseInt(total)+ parseInt(x);
 
-		total=document.getElementById("resultat").value
+		total=document.getElementById("resultat").value;
 
 		console.log(total);
 
 		break;
 
 		case "-":
-		document.getElementById("resultat").value = parseInt(total)- parseInt(x)
+		document.getElementById("resultat").value = parseInt(total)- parseInt(x);
 
-		total=document.getElementById("resultat").value
+		total=document.getElementById("resultat").value;
 
 		console.log(total);
 		break;
 
 		case "*":
-		document.getElementById("resultat").value = parseInt(total)* parseInt(x)
+		document.getElementById("resultat").value = parseInt(total)* parseInt(x);
 
-		total=document.getElementById("resultat").value
+		total=document.getElementById("resultat").value;
 
 		console.log(total);
 		break;
 
 		case "/":
 
-		var=document.getElementById("resultat").value;
+		var valeur =document.getElementById("resultat").value;
 
 		if(valeur==0)
 
 		{
-			document.getElementById("resultat").value="Impossible de diviser par 0"
+			document.getElementById("resultat").value="Impossible de diviser par 0";
 		}
 		else{
 
-			document.getElementById("resultat").value = parseInt(total)/ parseInt(x)
+			document.getElementById("resultat").value = parseInt(total)/ parseInt(x);
 
-			total=document.getElementById("resultat").value
+			total=document.getElementById("resultat").value;
 
 			console.log(total);
 			break;
